@@ -28,3 +28,8 @@ module 52-3
  now Header component can be removed from components.
 
  only those that are not in children route, require individual Header component.
+
+For route that doesn't exist(error 404)
+1. take a route as last route
+2. path: '*'
+3. element: can be custom component or div.
