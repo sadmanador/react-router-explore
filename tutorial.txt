@@ -15,3 +15,16 @@ two benefit of Link component.
 2. a tag refreshes the page, Link doesn't.
 
 However, Header component is needed to be used in every route initially.
+
+module 52-3
+1. For common navigation-bar, a layout component is made in src(out of components)
+2. Header component is called in layout.
+3. afterwards, <Outlet> build-in component of react is called.
+4. the things which will be changed by router will be inside outlet.
+
+4-1. Main component is called from the default path-element.
+4.2. default array object can have a third property called children.
+4-3. children takes array of object as route path.
+ now Header component can be removed from components.
+
+ only those that are not in children route, require individual Header component.

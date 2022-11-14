@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../Header/Header';
 
-const Home = () => {
+const Contacts = () => {
     return (
         <div>
-            <h5>This is Home component</h5>
+            <h2>This is contacts page</h2>
         </div>
     );
 };
 
-export default Home;
+export default Contacts;
