@@ -1,0 +1,7 @@
+1. install react-router-dom =   npm i react-router-dom
+2. App.js = const router = createBrowserRouter([])
+3. RouterProvider component and pass router props
+4. make some route
+    4-1.the route would be array of objects.
+    4-2. route take path: & element: as object property value.
+    4-3. element can react-components.
