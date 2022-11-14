@@ -5,3 +5,13 @@
     4-1.the route would be array of objects.
     4-2. route take path: & element: as object property value.
     4-3. element can react-components.
+
+now the SPA can be browse through path, but url written path is no ideal, therefore, a navbar is made with path in them
+1. Header component is made.
+2. instead of anchor tag, <Link to'/ '></Link> is written.
+
+two benefit of Link component.
+1. Link is build-in component of router.
+2. a tag refreshes the page, Link doesn't.
+
+However, Header component is needed to be used in every route initially.
