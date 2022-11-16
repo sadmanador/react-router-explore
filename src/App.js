@@ -7,6 +7,7 @@ import Main from './layout/Main';
 import Contacts from './components/Contacts/Contacts';
 import Users from './components/Users/Users';
 import UserDetails from './components/UserDetails/UserDetails';
+import Meals from './components/Meals/Meals';
 
 function App() {
   const router = createBrowserRouter([
@@ -27,8 +28,10 @@ function App() {
     { path: '/about', element: <About></About> },
     { path: '*', element: <h1>This route doesn't exists</h1> }
   ])
+  
   return (
     <div className="App">
+      {/* RouterProvider is perfix component */}
       <RouterProvider router={router}></RouterProvider>
     </div>
   );

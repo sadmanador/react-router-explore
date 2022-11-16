@@ -6,6 +6,7 @@ const Main = () => {
     return (
         <div>
             <Header></Header>
+            {/* Outlet is prefix component */}
             <Outlet></Outlet>
         </div>
     );
